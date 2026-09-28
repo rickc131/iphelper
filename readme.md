@@ -2,6 +2,10 @@
 
 一键切换网络配置的 macOS 原生桌面应用。支持多套静态 IP/DNS/网关配置存档，一键切换静态 IP 或 DHCP。
 
+## 感谢
+
+大佬原项目地址：https://github.com/skiperchen/iphelper
+
 ## 功能
 
 - 🔌 **自动扫描网卡** — 识别所有物理网卡（Wi‑Fi / 以太网）
@@ -23,9 +27,6 @@
 ## 下载
 
 > 下载后解压，拖到应用程序里
-
-前往 [Releases](https://github.com/skiperchen/iphelper/releases) 下载最新版本。
-
 > ⚠️ 首次打开提示「无法验证开发者」→ 系统设置 → 隐私与安全性 → 仍要打开
 > 如果没有提示，，然后执行下面的命令
 > sudo xattr -r -d com.apple.quarantine /Applications/IPHelper.app
@@ -56,6 +57,5 @@ iphelper/
 - 所有配置文件仅存储在本地 `configs/` 目录
 - 修改网络配置需要系统管理员密码（macOS 原生授权弹窗）
 
-## 许可证
 
-MIT License coding by skiperchen
+
